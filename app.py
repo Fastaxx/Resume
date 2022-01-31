@@ -4,24 +4,24 @@ import pages.edu, pages.projets, pages.exp, pages.skills, pages.propos
 import ressources.ast as ast
 
 PAGES = {
-    "Présentation": pages.propos,
-    "Expérience": pages.exp,
-    "Réalisations": pages.projets,
-    "Compétences": pages.skills,
-    "Formation" : pages.edu,
+    "Introduction": pages.propos,
+    "Professional experience": pages.exp,
+    "Achievements": pages.projets,
+    "Skills": pages.skills,
+    "Education" : pages.edu,
 }
 
 def main():
 	st.sidebar.title("Navigation")
-	selection = st.sidebar.radio("Allez à", list(PAGES.keys()))
+	selection = st.sidebar.radio("Go to", list(PAGES.keys()))
 	page = PAGES[selection]
 	with st.spinner(f"Loading {selection} ..."):
 		ast.write_page(page)
 	st.sidebar.title("Contact")
 	st.sidebar.info(
         """
-        Si vous souhaitez me contacter via
-        [email](mailto:l.libat2001@gmail.com) ou via
+       	If you want to contact me by
+        [email](mailto:) or by
         [LinkedIn](https://www.linkedin.com/in/louislibat/)
 	""")
 

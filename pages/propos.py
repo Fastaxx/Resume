@@ -1,13 +1,15 @@
 import streamlit as st
 
 def write():
-	st.title("Présentation")
+	st.title("Introduction")
 	st.markdown("""
-	### Qui suis-je ?	
-Etudiant ingénieur dans le domaine thermique et énergétique,
-passionné par le monde de la Data Science et des problématiques environnementales actuelles.
-Je suis motivé, autonome et cultive toujours une soif d'apprentissage
+	### Who am I ?	
+Engineering student in the thermal and energy field,
+passionate about the world of Data Science and current environmental issues.
+I am motivated, autonomous and curious.
 
-
+**Louis Libat**\n
+**Energy Engineering | Project Management | Data Science**\n
+[**LinkedIn**](https://www.linkedin.com/in/louislibat/) | [**Email**](mailto:)
 
 		""")
