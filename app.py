@@ -1,6 +1,6 @@
 import streamlit as st
 import pages.edu, pages.projets, pages.exp, pages.skills, pages.propos
-
+from PIL import Image
 import ressources.ast as ast
 
 PAGES = {
@@ -11,6 +11,7 @@ PAGES = {
     "Education" : pages.edu,
 }
 
+image = Image.open('img/louis.jpeg') 
 def main():
 	st.sidebar.title("Navigation")
 	selection = st.sidebar.radio("Go to", list(PAGES.keys()))
