@@ -15,6 +15,7 @@ def write():
 - **SQL** - 3/5
 - **MS Office** - Excel, Powerpoint, Project, Word
 - **Git, Github**
+- **Modelica**, OpenModelica
 - Low Code Softwares
 - Scilab - 3/5
 - Comfie Pleiades

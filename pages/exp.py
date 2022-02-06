@@ -4,6 +4,13 @@ from PIL import Image
 elecmap = Image.open('img/elecmap.png') 
 def write():
 	st.title("Professional experience")
+
+	st.markdown(
+		""" ### Research Intership : Insulating materials, Thermal conductivity, Industrial Cold | 2022
+**Tecnea-Cemafroid, Fresnes 94260**
+- Measurement laboratory
+
+		""")
 	col1, col2 =st.columns(2)
 	with col1:
 		st.markdown(
@@ -15,8 +22,13 @@ def write():
 - Python, Heroku, SQL
 
 ###
+""")
+	with col2:
+		st.subheader("")
+		st.image(elecmap)
 
-### Civilian Service : Project Manager | 2021 
+	st.markdown("""
+		### Civilian Service : Bicycle Organization - Project Manager | 2021 
 **Context**
 - Project Management (Financing Plan, grants,...)
 - Deployment of cycling infrastructures - Coordination of public, private and associative actors
@@ -26,12 +38,7 @@ def write():
 ###
 
 ### Burgundy heritage restoration project | 2019
-**Rempart**
+**Rempart Organization**
 - Construction and restoration of heritage
 
 """)
-	with col2:
-		st.subheader("")
-		st.image(elecmap)
-	
-
