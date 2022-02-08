@@ -13,7 +13,6 @@ PAGES = {
 
 image = Image.open('img/louis.jpeg') 
 def main():
-	st.sidebar.title("Navigation")
 	selection = st.sidebar.radio("Go to", list(PAGES.keys()))
 	page = PAGES[selection]
 	with st.spinner(f"Loading {selection} ..."):

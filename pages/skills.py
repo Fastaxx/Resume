@@ -10,6 +10,11 @@ def write():
 - Autonomy
 - Analytical skills
 
+## Language skills
+- **French** : Fluent
+- **English** : TOEIC 860 C1 : Professional skills 
+- **German** : School skills
+
 ## Platforms and Languages
 - **Python** - 4/5 - Pandas, Numpy, Scipy, Matplotlib, Streamlit, Plotly, etc...
 - **SQL** - 3/5
@@ -20,4 +25,6 @@ def write():
 - Scilab - 3/5
 - Comfie Pleiades
 - Retscreen
+
+
 		""")

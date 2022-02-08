@@ -6,9 +6,10 @@ def write():
 		"""### Bachelor degree Science and Technology - Energy and Sustainable Development, CNAM Paris | Sep 2021 - In progress
 
 **Courses**
-- Building Energy Systems, Energetic audit (ISO 50001), HVAC
+- Modeling, simulation of energy systems and engines
 - Dynamic Thermal Simulation (DTS), Computational Fluid Dynamics (CFD)
-- Regulation, modeling of machines and energy installations
+- Building Energy Systems, Energetic audit (ISO 50001), HVAC
+- Regulation, modeling and management of energy installations and machines 
 - Energy optimization of machines and motors
 ****
 ### Engineering School, Arts et Métiers ParisTech | 2021
@@ -18,6 +19,7 @@ def write():
 ### Preparatory Classes, Lycée Saint-Louis Paris | Sep 2019 - June 2021
 
 **Entrance exams to major engineering schools**
+- Mathematics, Physics, Chemistry, Computer Science, Engineering Sciences
 - Certificate of achievement with honors
 - Admission : Arts et Métiers ParisTech
 ****
