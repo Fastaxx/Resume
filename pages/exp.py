@@ -5,12 +5,7 @@ elecmap = Image.open('img/elecmap.png')
 def write():
 	st.title("Professional experience")
 
-	st.markdown(
-		""" ### Research Intership : Insulating materials, Thermal conductivity, Industrial Cold | 2022
-**Tecnea-Cemafroid, Fresnes 94260**
-- Measurement laboratory
 
-		""")
 	col1, col2 =st.columns(2)
 	with col1:
 		st.markdown(
@@ -19,7 +14,7 @@ def write():
 **Open-source electricity CO2 data**
 - Power Grid Data, Carbon intensity estimation
 - Real-time data, Live visualization
-- Python, Heroku, SQL
+- Python, Heroku, SQL, API
 
 ###
 """)
@@ -27,6 +22,11 @@ def write():
 		st.subheader("")
 		st.image(elecmap)
 
+	st.markdown(
+		""" ### Fluid Bike Map : Traffic flow, Data Science | 2022
+- Study of the traffic flows of cyclists in cities to draw up traffic plans
+- Python, Folium, keplergl, Gpxpy, Streamlit, Pandas, Matplotlib
+		""")
 	st.markdown("""
 		### Civilian Service : Bicycle Organization - Project Manager | 2021 
 **Context**

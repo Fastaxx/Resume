@@ -4,11 +4,11 @@ from PIL import Image
 import ressources.ast as ast
 
 PAGES = {
-    "Introduction": pages.propos,
-    "Professional experience": pages.exp,
-    "Achievements": pages.projets,
+    "🙋 Introduction": pages.propos,
+    "👨‍💻️ Professional experience": pages.exp,
+    "✅ Achievements": pages.projets,
     "Skills": pages.skills,
-    "Education" : pages.edu,
+    "🎓 Education" : pages.edu,
 }
 
 image = Image.open('img/louis.jpeg') 

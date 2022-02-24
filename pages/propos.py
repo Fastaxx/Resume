@@ -1,7 +1,6 @@
 import streamlit as st
 from PIL import Image
 
-
 image = Image.open('img/louis.jpeg') 
 
 def write():
@@ -14,6 +13,6 @@ I am motivated, autonomous and curious.
 
 **Louis Libat**\n
 **Energy Engineering | Project Management | Data Science**\n
-[**LinkedIn**](https://www.linkedin.com/in/louislibat/) | [**Email**](mailto:)
+[**LinkedIn**](https://www.linkedin.com/in/louislibat/) | [**Github**](https://github.com/fastaxx)
 
 		""")
