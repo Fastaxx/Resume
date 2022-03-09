@@ -25,10 +25,12 @@ def write():
 	st.markdown(
 		""" ### Fluid Bike Map : Traffic flow, Data Science | 2022
 - Study of the traffic flows of cyclists in cities to draw up traffic plans
+- GPS sensor, data processing
 - Python, Folium, keplergl, Gpxpy, Streamlit, Pandas, Matplotlib
-		""")
-	st.markdown("""
-		### Civilian Service : Bicycle Organization - Project Manager | 2021 
+
+###
+
+### Civilian Service : Bicycle Organization - Project Manager | 2021 
 **Context**
 - Project Management (Financing Plan, grants,...)
 - Deployment of cycling infrastructures - Coordination of public, private and associative actors

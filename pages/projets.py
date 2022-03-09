@@ -2,7 +2,7 @@ import streamlit as st
 import streamlit.components.v1 as components
 
 def write():
-	st.title("Achievements")
+	st.title("Projects")
 	st.markdown(
 		""" ### Study and sizing of a building heating system attached to a hydroelectric power station | 2022
 

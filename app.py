@@ -16,7 +16,7 @@ footer {
 PAGES = {
     "🙋 Introduction": pages.propos,
     "👨‍💻️ Professional experience": pages.exp,
-    "✅ Achievements": pages.projets,
+    "✅ Projects": pages.projets,
     "Skills": pages.skills,
     "🎓 Education" : pages.edu,
 }
